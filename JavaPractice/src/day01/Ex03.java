@@ -25,6 +25,7 @@ public class Ex03 {
 		System.out.println($1*z);
 		System.out.println(y-a);
 		//처음 x값을 3으로 넣어줬지만 프로그램이 실행되고 아래의 실행문 출력될때면 x=2가 된다. 기존의 x값은 지워지는 것.
+		
 	}
 
 }
