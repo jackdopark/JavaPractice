@@ -16,6 +16,7 @@ public class ValueTest01 {
 		
 		//형 변환
 		int a1 = 100;
+		int a2 = 200;
 		byte v1 = 0;
 		double v2 = 0;
 		
@@ -24,6 +25,16 @@ public class ValueTest01 {
 		
 		//자동형변황르 강제변환으로 표현할때
 		v2=(double)a1;
+		
+		v1 = (byte)a1;
+		System.out.println(v1);
+		
+		v1 = (byte)a2;
+		System.out.println(v1);
+		
+		//정수타입을 실수타입으로 바꿀때 많이쓴다.
+		//정수를 나눌때 실수값이 보고싶을떄.
+		//실수를 정수로 바꿀때
 		
 		
 	}
