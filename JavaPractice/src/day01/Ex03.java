@@ -10,7 +10,7 @@ public class Ex03 {
 		// EX) int $1; 은 가능, int $#, 1abc;은 불가능 
 		//첫 문자는 영어 소문자로 시작하고 다른 단어가 붙으면 첫 문자를 대문자로 한다. int appleMacbook
 		int x,y,z,$1;
-		double _x,_y,_z,$2;
+		double _x,_y,_z;
 		
 		//변수의 선언과 대입을 한줄로 간단하게 할 수도 있다.
 		int a=5;
