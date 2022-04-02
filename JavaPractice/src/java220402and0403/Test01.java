@@ -1,6 +1,6 @@
 package java220402and0403;
 
-public class test01 {
+public class Test01 {
 
 	public static void main(String[] args) {
 		//for문(루프)및 배열
@@ -8,7 +8,7 @@ public class test01 {
 		//나무 열그루 잘라와=>for문 , 나무 10시까지 계속 베어와=>와일문
 		//for문이 와일문까지 포함하기 때문에 와일문보다는 포문을 많이 사용한다
 		
-		/*for(초기값: 조건(식);증감식){
+		/*for(초기값; 조건(식);증감식){
 		 * 실행문
 		 * }
 		*/
@@ -26,10 +26,15 @@ public class test01 {
 		
 		int sum= 0;
 		//1~10까지의 합을 for문을 사용해서 만들자
-		for(int i=1; i<=10; i++) {
+		for(int i=1; i<=10 ; i++) {
 			sum=sum+i;
 		}
 		System.out.println("합: "+ sum);
+		//복습할때 10에서 1까지 감소하는 것도 만들어보자.
+		
+		
+		
+		
 	}
 
 }
