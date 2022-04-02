@@ -27,6 +27,6 @@ public class Test03 {
 			System.out.println("UP!");
 		}
 	}
-	sc.close();
-}
+	sc.close();//스캐너는 사용후 종료해야한다.
+  }
 }
