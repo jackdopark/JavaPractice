@@ -9,10 +9,24 @@ public class Test03 {
 		int answer = (int)(Math.random()*50)+1;
 		
 		Scanner sc = new Scanner(System.in);
+		int matchValue =0;
 		
 		for(int i=1; i<=10; i++) {
 			
+			System.out.println("어떤 숫자일까요?");
+			matchValue = sc.nextInt(); //키보드로 부터 받은 숫자를 변수에 넣는다.
+			
+			if(matchValue == answer) {
+				System.out.println(i+"번째에 맞춤!! 승리!");
+				break; //loop를 종료한다.
+			}else if(matchValue > answer) {
+				System.out.println("DOWN!!");
+			}
+			
+		else if(matchValue < answer) {
+			System.out.println("UP!");
 		}
 	}
-
+	sc.close();
+}
 }
