@@ -11,6 +11,8 @@ public class Test03 {
 		Scanner sc = new Scanner(System.in);
 		int matchValue =0;
 		
+		boolean iswin=false;
+		
 		for(int i=1; i<=10; i++) {
 			
 			System.out.println("어떤 숫자일까요?");
@@ -27,7 +29,10 @@ public class Test03 {
 			System.out.println("UP!");
 		}
 	}
-	sc.close();//스캐너는 사용후 종료해야한다.
-	//루프가 끝났는데도 못맞췄으면 정답인 숫자를 출력하자.
+		if(!iswin) { //iswin이 false여야 참이다.
+			System.out.println("실패했습니다. 맞춰야할 값은: "+answer+" 입니다.");
+		}
+		sc.close();//스캐너는 사용후 종료해야한다.
+	
   }
 }
