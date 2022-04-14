@@ -11,7 +11,7 @@ public class StarTest01 {
 			for (int j = 0; j < i+1; j++) { //j는 i보다 작을때까지
 				System.out.print("*");
 			}
-			//라인변
+			//줄바꿈
 			System.out.println();
 		}
 	}

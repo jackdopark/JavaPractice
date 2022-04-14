@@ -20,7 +20,22 @@ public class Array02 {
 			
 		}
 		System.out.println(Arrays.toString(arr));
-		
-	}
+		//배열의 최대 최솟값구하기
+		int max=arr[0];
+		int min=arr[0];
+		//최대 최소값 구하는 코드
+		for(int i=1; i<arr.length; i++) {
+		    // 최소값
+		    if(arr[i] < min) {
+		     min = arr[i];
+		    }
+		    // 최대값
+		    if(arr[i] > max) {
+		     max = arr[i];
+		    }
 
+		
+	
+	}
+	}
 }

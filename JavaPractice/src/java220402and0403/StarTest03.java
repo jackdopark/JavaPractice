@@ -11,14 +11,11 @@ public class StarTest03 {
 				System.out.print(" ");
 			}
 			
-			System.out.println();
-			//숙제 역직각삼각형 만들기
-			
-			//이등변 삼각형 만들기(별이 홀수로 증가)
-			//for문 두개만 사용해서 만들기
+			System.out.println("*");
+
 			
 		}
-
+		
 	}
 
 }
